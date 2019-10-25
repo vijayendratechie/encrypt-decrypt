@@ -1,0 +1,39 @@
+{
+	"Request": {
+		"_Cmnt" : "Unencrypted text",
+		"TranID": "",
+		"Key1": "",
+		"Key2": "",
+		"TmpltID": "",
+		"TYPE": "SPS / MPS",
+		"Print": "Yes / No",
+		"Copy": "Yes / No",
+		"PWDPTD": "Yes / No",
+		"Hash": "",
+		"Owner": "",
+		"Lang": "",
+		"Agency": "MOI / Customs",
+		"Distribution": "Email / Vault"
+	},
+
+	"Header": {
+		"_Comment" : "Encrypted text - KeyA, Only available for designated government officials and no fixed structure. It is used for flags and comments",
+		"HAttrib" : "AttributeValue",
+		"CPermit": "Yes / No",
+		"Paid": "Yes / No"
+	},
+
+	"Body": {
+		"_Comment" : "Encrypted text - KeyB. No fixed structure as it is based on the form fields. This data is binded with the QR Code. This also is used for direct form input",
+		"FAttrib" : "AttributeValue",
+		"Consignment Type": "",
+		"Consignment Handing": ""
+	},
+
+	"Objects": {
+		"_Comment" : "These are URLs for object retrieval from server side",
+		"TemplateURL": "",
+		"DigSign": "",
+		"A": ""
+	}
+}
